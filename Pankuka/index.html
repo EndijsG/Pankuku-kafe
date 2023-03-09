@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Izejmateriālu uzskaite</title>
+    <!-- bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+    <!-- icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    />
+    <!-- custom css -->
+    <link href="style.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container" id="main-container">
+        <h1 id="virsraksts">
+            Izejmateriālu uzskaite
+        </h1>
+        <div class="container" id="main-box">
+          <div class="row" id="boxes">
+            <div id="vertical">
+              <div id="izcepto-box">
+                <div class="input-group">
+                  <input
+                  type="text"
+                  class="mt-1 form-control"
+                  placeholder="Izcepto skaits"
+                  aria-label="Izcepto skaits"
+                  aria-describedby="basic-addon1"
+                  id="izceptoInput"
+                  />
+                  <button type="button" class="mt-1 btn btn-info" id="enter_izcepto">
+                    <i class="bi bi-box-arrow-in-down-right"></i>
+                </div>
+                <div id="izcepto_list_scroll" class="mt-2">
+                  <ul class="list-group" id="izcepto_list"></ul>
+              </div>
+              </div>
+              <div id="atlikumi-box" class="p-4 fs-3 fw-bold fst-italic text-center">
+                <p id="milti">Milti-</p>
+                <p id="olas">Olas-</p>
+                <p id="piens">Piens-</p>
+                <p id="ella">Eļļa-</p>
+              </div>
+            </div>
+              <div id="izejvielu-box">
+                <div class="input-group">
+                  <input
+                  type="text"
+                  class="mt-1 form-control"
+                  placeholder="Izejviela (milti, olas, piens, eļļa)"
+                  aria-label="Izejviela (milti, olas, piens, eļļa)"
+                  aria-describedby="basic-addon1"
+                  id="izejvielasInput"
+                  />
+                </div>
+                <div class="input-group">
+                  <input
+                  type="number"
+                  class="mt-1 form-control"
+                  placeholder="Daudzums (kg, l, gab.)"
+                  aria-label="Daudzums"
+                  aria-describedby="basic-addon1"
+                  id="daudzumsInput"
+                  />
+                  <button type="button" class="mt-1 btn btn-info" id="enter_izejvielu">
+                    <i class="bi bi-box-arrow-in-down-right"></i>
+                </div>
+                <div id="list_scroll" class="mt-2">
+                    <ul class="list-group" id="list"></ul>
+                </div>
+              </div>
+          </div>
+        </div>
+    </div>
+    <!-- end -->
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <!-- main.js -->
+    <script src="main.js"></script>
+    <!-- other -->
+    <script src="https://cdn.jsdelivr.net/npm/dayjs@1/dayjs.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
+</body>
+</html>

@@ -1,0 +1,96 @@
+html,
+body {
+  background-color: #ececda;
+  height: 100%;
+}
+
+#main-container {
+  background-color: #cc915b;
+  border-radius: 30px;
+  height: 100%;
+  margin-top: 2%;
+  padding: 1.5%;
+  height: 100%
+  
+}
+
+#main-container-two {
+  background-color: #cc915b;
+  margin-top: 2%;
+  padding: 1.5%;
+  border-radius: 30px;
+}
+
+#virsraksts{
+    text-align: center; 
+}
+
+#main-box {
+  background-color: #ecbc8f;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  height: 87%;
+  margin-top: 2%;
+  border-radius: 25px;
+}
+
+#main-box-two {
+  background-color: #ecbc8f;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 4%;
+  border-radius: 25px;
+}
+
+#boxes{
+  padding: 3%;
+  height: 100%;
+}
+
+#vertical{
+  width: 49%;
+  height: 100%;
+  margin-right: 2%;
+}
+
+#izcepto-box{
+  background-color: #f3dac2;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 20px;
+  height: 53.7%;
+  padding: 3%;
+}
+
+#izcepto_list_scroll{
+  height: 85%;
+  width: 100%;
+  overflow:auto;
+  border-radius: 20px;
+}
+
+#izejvielu-box{
+  background-color: #f3dac2;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 20px;
+  width: 49%;
+  height: 100%;
+  padding: 2%;
+  overflow: hidden;
+}
+
+#list_scroll{
+  height: 87%;
+  width: 100%;
+  overflow:auto;
+  border-radius: 20px;
+}
+
+#atlikumi-box{
+  background-color: #f3dac2;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 20px;
+  margin-top: 3%;
+  height: 44%;
+}
+
+.delete {
+  display: none !important;
+}
